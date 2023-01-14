@@ -4,10 +4,12 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+
 }
 
 * {
     margin: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------                                                  Header Style                                                        --------------------------------------------------------------------------------------------------------------------*/
@@ -68,11 +70,62 @@ a {
     text-align: center;
     margin-bottom: 32px;
 }
+
 .explore {
     margin-bottom: 50px;
     width: 180px;
     height: 64px;
     margin-left: 620px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------                                                                       Main Style ------------------------------------------------------------------------------------------------------------------------*/
+/* Features Section style */
+.features {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    gap: 73px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-title {
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.Quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.feature-title .orange-text {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.feature-btn{
+    width: 180px;
+    height: 64px;
     background: #FF900E;
     border-radius: 8px;
     border: 0px;
