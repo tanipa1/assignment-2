@@ -123,7 +123,8 @@ a {
     color: #727272;
     margin-bottom: 32px;
 }
-.feature-btn{
+
+.feature-btn {
     width: 180px;
     height: 64px;
     background: #FF900E;
@@ -132,4 +133,84 @@ a {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* love & enjoy style */
+.enjoy {
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+    margin-bottom: 130px;
+
+}
+
+.enjoy-head {
+    display: flex;
+    gap: 21px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+.vl {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+
+.enjoy-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.enjoy-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.enjoy-box {
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.enjoy-box_title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.enjoy-box_info {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.enjoy-btn {
+    width: 342px;
+    height: 200px;
+    margin-left: -92px;
+    margin-top: -130px;
+
+}
+
+.year-btn {
+    padding: 45px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.year {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.btn-exp {
+    font-weight: 500;
+    font-size: 25px;
 }
