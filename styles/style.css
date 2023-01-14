@@ -1,0 +1,82 @@
+/* Common Designs */
+@import url(<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500;700&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+);
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------                                                  Header Style                                                        --------------------------------------------------------------------------------------------------------------------*/
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px 45px 240px;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/* Banner style */
+.banner {
+    display: grid;
+    justify-content: center;
+    margin-top: 116px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.banner-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.explore {
+    margin-bottom: 50px;
+    width: 180px;
+    height: 64px;
+    margin-left: 620px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
