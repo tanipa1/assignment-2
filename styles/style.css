@@ -12,7 +12,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/*-------------------------------------------------------------------------------------------------------------------                                                  Header Style                                                        --------------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------                                    Header style -------------------------------------------------------------*/
 header {
     background-color: rgba(255, 144, 14, 0.1);
     padding: 50px 240px 45px 240px;
@@ -84,7 +84,7 @@ a {
     color: #FFFFFF;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------                                                                       Main Style ------------------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------                                     Main Style -------------------------------------------------------------------------------------*/
 /* Features Section style */
 .features {
     margin-top: 85px;
@@ -268,8 +268,148 @@ a {
     color: #727272;
     margin-top: 10px;
 }
-.box:hover{
+
+.box:hover {
     background-color: #FF900E;
-    color: #FFFFFF;
     transform: rotate(45deg);
+}
+
+/* Sponsors style */
+.sponsors {
+    margin-bottom: 130px;
+}
+
+.sponsor-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsor-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+
+}
+
+/* took help from google to make logo gray */
+.sponsors-logo img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* --------------------------------------------------------------------------------------                                     Footer style -------------------------------------------------------------------------------------*/
+
+.main-footer {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.bonus {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    padding-bottom: 150px;
+}
+
+.future {
+    margin-left: 230px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* margin-right: 885px; */
+}
+
+.fu-head {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fu-desc {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #131313;
+}
+
+.fo-icon {
+    display: flex;
+    margin-top: 32px;
+    gap: 17px;
+}
+
+.subscribe {
+    color: #131313;
+    margin-right: 229px;
+}
+
+.box-footer {
+    border-radius: 5px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+    margin-bottom: 16px;
+    margin-top: 31px;
+    width: 500px;
+    height: 150px;
+    padding: 21px 158px 21px 21px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.fo-sub {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.button-fo {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 20px 36px 20px 36px;
+    border-radius: 8px;
+    border: 0px;
+    background: #FF900E;
+}
+
+/* Feedback style */
+.feedback {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+}
+
+.fa-star:hover {
+    color: gold;
+}
+
+.star-icon {
+    font-size: 35px;
+}
+
+/* copyright style */
+.copyright {
+    padding-bottom: 100px;
+}
+
+.copyright-info {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
 }
