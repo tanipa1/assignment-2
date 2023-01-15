@@ -22,7 +22,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 50px 0px 50px;
 }
 
 nav ul {
@@ -53,6 +53,11 @@ a {
     display: grid;
     justify-content: center;
     margin-top: 116px;
+}
+
+.banner img {
+    width: 1440px;
+    height: 700px;
 }
 
 .banner-title {
@@ -220,7 +225,7 @@ a {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-    margin-left: 500px;
+    margin-left: 240px;
     margin-bottom: 24px;
 
 }
@@ -229,7 +234,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-left: 500px;
+    margin-left: 240px;
     margin-bottom: 100px;
 }
 
